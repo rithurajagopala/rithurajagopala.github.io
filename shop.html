@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Rithu's Portfolio</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+<!-- Header -->
+<header id="header" class="transparent-navbar">
+	<!-- container -->
+	<div class="container">
+		<!-- navbar header -->
+		<div class="navbar-header">
+			<!-- Logo -->
+			<div class="navbar-brand">
+				<a class="logo" href="home.html">
+					<li style="list-style: none;"><a style="color: #000000; margin-left: 5px; font-size: 30px;">Rithu's Portfolio</a></li>
+				</a>
+			</div>
+			<!-- /Logo -->
+
+			<!-- Mobile toggle -->
+			<button class="navbar-toggle">
+				<i class="fa fa-bars"></i>
+			</button>
+			<!-- /Mobile toggle -->
+		</div>
+		<!-- /navbar header -->
+
+		<!-- Navigation -->
+		<nav id="nav">
+			<ul class="sub-nav nav navbar-nav navbar-right">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="works.html">Series</a></li>
+				<li><a href="breadth.html">Breadth</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="rblog.html">Video</a></li>
+				<li><a href="https://www.instagram.com/rithu_rajagopala/?hl=en"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://www.facebook.com/people/Rithu-Rajagopala/100014113064326"><i class="fa fa-facebook"></i></a></li>
+			</ul>
+		</nav>
+		<!-- /Navigation -->
+	</div>
+	<!-- /container -->
+</header>
+<!-- /Header -->
+
+<!-- BLOG -->
+<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- blog -->
+				<div class="col-md-6">
+					<div class="blog">
+						<!-- blog content -->
+						<div class="">
+							<h1>Bringing the color to you.</h1>
+							<p style="font-size: 20px">Not many can say they can bring beauty and joy anywhere any day, but here I am offering just that.
+								Celebrate today with any piece that spoke to you. Just click the button below!</p>
+							<p style="font-size: 20px">Payment methods: Venmo, PayPal, Cash</p>
+							<div class="row">
+								<div class="col-md-6" style="font-size: 20px">
+									<h3>Poster Prints.</h3>
+									<p>4 x 6</p>
+									<p>5 x 7</p>
+									<p>11 x 14</p>
+									<p>16 x 20</p>
+									<p>20 x 30</p>
+									<p>*Sizes dependent on the work chosen.</p>
+								</div>
+								<div class="col-md-6" style="font-size: 20px">
+									<h3>Canvas Prints.</h3>
+									<p>12 x 16</p>
+									<p>16 x 20</p>
+									<p>16 x 24</p>
+									<p>16 x 32</p>
+									<p>16 x 48</p>
+									<p>20 x 30</p>
+									<p>24 x 36</p>
+									<p>30 x 40</p>
+								</div>
+							</div>
+							<div>
+								<button class="open-button" onclick="openForm()">Buy Now</button>
+
+								<div class="form-popup" id="myForm">
+									<form method ="post" action="action_page.php" class="form-container">
+										<h1>Buy Now</h1>
+
+										<label for="Name"><b>Name</b></label>
+										<input type="text" placeholder="Enter Name" id="Name" name="name" required>
+
+										<label for="Email"><b>Email</b></label>
+										<input type="text" placeholder="Enter Email" id="email" name="email" required>
+
+										<label for="Number"><b>Number</b></label>
+										<input type="text" placeholder="(###)-###-####" id="number" name="number" required>
+
+										<label for="Quantity"><b>Quantity</b></label>
+										<input type="text" placeholder="" id="quantity" name="quantity" required>
+
+										<label for="Pieces"><b>Which piece(s) spoke to you?</b></label>
+										<input type="text" placeholder="The name or a description of which piece(s) you'd like" id="Pieces" name="pieces" required>
+
+										<label for="Size"><b>What size and type of print would you like? </b></label>
+										<p>I'll reach out to you if there are any problems with sizing for your chosen piece.</p>
+										<input type="text" placeholder="Poster print or canvas print: Size of print" id="Size" name="size" required>
+
+										<label for="delivery"><b>Delivery Method</b></label>
+										<p>Direct Delivery only applies to those I regularly see (friends, family, UPenn students, etc.)</p>
+										<select id="delivery" name="delivery" style="padding: 15px; margin-bottom:10px;">
+											<option value="shipping" selected>Shipping</option>
+											<option value="direct">Direct Delivery</option>
+										</select>
+										<br>
+
+										<label for="ad1"><b>Shipping/Meeting address. </b></label>
+										<p>Shipping address for those who selected shipping and meeting address for those that picked direct delivery.</p>
+										<p>Address 1</p>
+										<input type="text" placeholder="" name="ad1" id = "ad1" required>
+
+										<p>Address 2</p>
+										<input type="text" placeholder="" name="ad2" id = "ad2">
+
+										<p>City</p>
+										<input type="text" placeholder="" name="city" id = "city" required>
+
+										<p>State/Province</p>
+										<input type="text" placeholder="" name="state" id = "state" required>
+
+										<p>Zip/Postal Code</p>
+										<input type="text" placeholder="" name="zip" id = "zip" required>
+
+										<p>Country</p>
+										<input type="text" placeholder="" name="country" id = "country" required>
+
+										<label for="payment"><b>Payment Method</b></label>
+										<br>
+										<select id="payment" name="payment" style="padding: 15px; margin-bottom:10px;">
+											<option value="venmo" selected>Venmo</option>
+											<option value="paypal">PayPal</option>
+											<option value="cash">Cash</option>
+											<option value="other">Other</option>
+										</select>
+										<br>
+
+										<label for="otherpay"><b>Other payment method (if applicable).</b></label>
+										<input type="text" placeholder="" name="otherpay" id="otherpay">
+
+										<label for="venpay"><b>Venmo/PayPal username.</b></label>
+										<p>If you selected Venmo or PayPal, I'll send you a request for the poster price + shipping.</p>
+										<input type="text" placeholder="" name="venpay" id="venpay">
+
+										<label for="additional"><b>Additional details or remarks.</b></label>
+										<input type="text" placeholder="Feel free to ask, suggest, or tell me anything!" name="additional" id="additional">
+
+										<button type="submit" class="btn">Ready to buy!</button>
+										<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					<!-- /blog content -->
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="blog">
+						<!-- blog content -->
+						<div class="" style="font-size: 20px">
+							<h1>Commission.</h1>
+							<p>If you would like a custom-made sketch, sticker design, artwork, or anything else,
+								email me and we’ll see what we can come up with!</p>
+							<p>Starting at $10 for a custom sketch sent digitally.</p>
+							<h3>rithu.rajagopala@icloud.com</h3>
+
+						<!-- /blog content -->
+						</div>
+					</div>
+		<!-- /blog -->
+		</div>
+			<!-- /row -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /BLOG -->
+</div>
+<!-- Footer -->
+<footer id="footer">
+	<!-- container -->
+	<div class="container">
+		<!-- row -->
+		<div class="row">
+
+			<!-- footer logo -->
+			<div class="col-md-4 col-md-push-4">
+				<div class="footer-brand">
+					<a class="logo" href="index.html">
+
+					</a>
+				</div>
+			</div>
+			<!-- /footer logo -->
+
+			<!-- contact social -->
+			<div class="col-md-4 col-md-push-4">
+				<div class="contact-social">
+					<a href="https://www.linkedin.com/in/vikramdeepak/"><i class="fa fa fa-linkedin"></i></a>
+					<a href="https://github.com/vikramdeepak"><i class="fa fa fa-github"></i></a>
+
+				</div>
+			</div>
+			<!-- /contact social -->
+			<div class="col-md-4 col-md-pull-8">
+				<span>This website is made, partially designed and ran by Vikram Deepak, UC Berkeley '23.</span>
+			</div>
+		</div>
+		<!-- /row -->
+	</div>
+	<!-- /container -->
+</footer>
+<!-- /Footer -->
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
