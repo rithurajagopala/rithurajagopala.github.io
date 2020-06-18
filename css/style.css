@@ -331,7 +331,7 @@ textarea.input {
 }
 
 #header.transparent-navbar .navbar-toggle {
-  color: #FFF;
+  color: #000000;
 }
 
 #header.fixed-navbar .navbar-toggle {
@@ -366,6 +366,36 @@ textarea.input {
     display: block;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .sub-nav {
+    margin: 0px -15px;
+    max-height: 0;
+    overflow-y: scroll;
+    background-color: #FFF;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  .sub-nav.open {
+    max-height: 500px;
+
+  }
+  .sub-nav li.active a:after {
+    display: none;
+  }
+  #header.transparent-navbar .sub-nav li a {
+    color: #0b0f28;
+  }
+  .sub-nav li a:hover, .sub-nav li a:focus, .sub-nav li.active a {
+    background-color: #000000;
+    color: #fff !important;
+  }
+  .navbar-toggle {
+    display: block;
+    color: #000000;
+  }
+}
+
 
 /*=========================================================
 	HOME
