@@ -281,6 +281,15 @@ textarea.input {
   transition: 0.3s all;
 }
 
+.lil-nav li a {
+  position: relative;
+  padding: 30px 15px;
+  color: #000000;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
 #header.transparent-navbar .main-nav li a {
   color: #FFF;
 }
@@ -300,6 +309,16 @@ textarea.input {
 }
 
 .sub-nav li.active a:after {
+  content: "";
+  height: 3px;
+  position: absolute;
+  bottom: -3px;
+  width: 100%;
+  left: 0;
+  background: #ffffff;
+}
+
+.lil-nav li.active a:after {
   content: "";
   height: 3px;
   position: absolute;
