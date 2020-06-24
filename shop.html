@@ -112,83 +112,7 @@
 								</div>
 							</div>
 							<div>
-								<button class="open-button" onclick="openForm()">Buy Now</button>
-
-								<div class="form-popup" id="myForm">
-									<form method ="post" action="action_page.php" class="form-container">
-										<h1>Buy Now</h1>
-
-										<label for="Name"><b>Name</b></label>
-										<input type="text" placeholder="Enter Name" id="Name" name="name" required>
-
-										<label for="Email"><b>Email</b></label>
-										<input type="text" placeholder="Enter Email" id="email" name="email" required>
-
-										<label for="Number"><b>Number</b></label>
-										<input type="text" placeholder="(###)-###-####" id="number" name="number" required>
-
-										<label for="Quantity"><b>Quantity</b></label>
-										<input type="text" placeholder="" id="quantity" name="quantity" required>
-
-										<label for="Pieces"><b>Which piece(s) spoke to you?</b></label>
-										<input type="text" placeholder="The name or a description of which piece(s) you'd like" id="Pieces" name="pieces" required>
-
-										<label for="Size"><b>What size and type of print would you like? </b></label>
-										<p>I'll reach out to you if there are any problems with sizing for your chosen piece.</p>
-										<input type="text" placeholder="Poster print or canvas print: Size of print" id="Size" name="size" required>
-
-										<label for="delivery"><b>Delivery Method</b></label>
-										<p>Direct Delivery only applies to those I regularly see (friends, family, UPenn students, etc.)</p>
-										<select id="delivery" name="delivery" style="padding: 15px; margin-bottom:10px;">
-											<option value="shipping" selected>Shipping</option>
-											<option value="direct">Direct Delivery</option>
-										</select>
-										<br>
-
-										<label for="ad1"><b>Shipping/Meeting address. </b></label>
-										<p>Shipping address for those who selected shipping and meeting address for those that picked direct delivery.</p>
-										<p>Address 1</p>
-										<input type="text" placeholder="" name="ad1" id = "ad1" required>
-
-										<p>Address 2</p>
-										<input type="text" placeholder="" name="ad2" id = "ad2">
-
-										<p>City</p>
-										<input type="text" placeholder="" name="city" id = "city" required>
-
-										<p>State/Province</p>
-										<input type="text" placeholder="" name="state" id = "state" required>
-
-										<p>Zip/Postal Code</p>
-										<input type="text" placeholder="" name="zip" id = "zip" required>
-
-										<p>Country</p>
-										<input type="text" placeholder="" name="country" id = "country" required>
-
-										<label for="payment"><b>Payment Method</b></label>
-										<br>
-										<select id="payment" name="payment" style="padding: 15px; margin-bottom:10px;">
-											<option value="venmo" selected>Venmo</option>
-											<option value="paypal">PayPal</option>
-											<option value="cash">Cash</option>
-											<option value="other">Other</option>
-										</select>
-										<br>
-
-										<label for="otherpay"><b>Other payment method (if applicable).</b></label>
-										<input type="text" placeholder="" name="otherpay" id="otherpay">
-
-										<label for="venpay"><b>Venmo/PayPal username.</b></label>
-										<p>If you selected Venmo or PayPal, I'll send you a request for the poster price + shipping.</p>
-										<input type="text" placeholder="" name="venpay" id="venpay">
-
-										<label for="additional"><b>Additional details or remarks.</b></label>
-										<input type="text" placeholder="Feel free to ask, suggest, or tell me anything!" name="additional" id="additional">
-
-										<button type="submit" class="btn">Ready to buy!</button>
-										<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-									</form>
-								</div>
+								<button class="open-button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdyei1632HlJtu_AAfOzrBm6xFtJFkqeO-M3hh3YTdpGLobpw/viewform';">Buy Now</button>
 							</div>
 						</div>
 					<!-- /blog content -->
@@ -250,15 +174,6 @@
 	<!-- /container -->
 </footer>
 <!-- /Footer -->
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
 	<!-- jQuery Plugins -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
