@@ -4,7 +4,7 @@
 		if(e.button == 2) { 
 		  return false; 
 		}
-	  }
+	  });
 	// Scrollspy
 	$('body').scrollspy({
 		target: '#nav',
