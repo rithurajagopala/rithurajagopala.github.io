@@ -1,6 +1,10 @@
 (function($) {
 	"use strict"
-
+	$('img').mousedown(function (e) {
+		if(e.button == 2) { 
+		  return false; 
+		}
+	  }
 	// Scrollspy
 	$('body').scrollspy({
 		target: '#nav',
