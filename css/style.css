@@ -305,7 +305,7 @@ textarea.input {
   bottom: -3px;
   width: 100%;
   left: 0;
-  background: #000000;
+  background: #D3D3D3;
 }
 
 .sub-nav li.active a:after {
@@ -315,7 +315,7 @@ textarea.input {
   bottom: -3px;
   width: 100%;
   left: 0;
-  background: #ffffff;
+  background: #D3D3D3;
 }
 
 .lil-nav li.active a:after {
@@ -325,7 +325,7 @@ textarea.input {
   bottom: -3px;
   width: 100%;
   left: 0;
-  background: #ffffff;
+  background: 	#D3D3D3;
 }
 
 .main-nav li a:hover, .main-nav li a:focus {
@@ -415,7 +415,9 @@ textarea.input {
   }
   .lil-nav {
     overflow-x: hidden;
+    width: 100%;
     margin: auto;
+    text-align: center;
   }
 }
 
