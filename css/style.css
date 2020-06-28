@@ -413,6 +413,10 @@ textarea.input {
     display: block;
     color: #000000;
   }
+  .lil-nav {
+    overflow-x: hidden;
+    margin: auto;
+  }
 }
 
 
